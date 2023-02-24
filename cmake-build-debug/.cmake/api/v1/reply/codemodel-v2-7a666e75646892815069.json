@@ -16,7 +16,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -32,7 +33,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -50,6 +52,13 @@
 					"id" : "__01_cppDataType::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-__01_cppDataType-Debug-8e697f6c8f68571668e1.json",
 					"name" : "__01_cppDataType",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "__02_cppVarScope::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-__02_cppVarScope-Debug-289e4377c56a77db438e.json",
+					"name" : "__02_cppVarScope",
 					"projectIndex" : 0
 				}
 			]

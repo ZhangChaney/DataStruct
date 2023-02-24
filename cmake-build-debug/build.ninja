@@ -74,6 +74,39 @@ build __01_cppDataType.exe: CXX_EXECUTABLE_LINKER____01_cppDataType_Debug CMakeF
   TARGET_PDB = __01_cppDataType.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target __02_cppVarScope
+
+
+#############################################
+# Order-only phony target for __02_cppVarScope
+
+build cmake_object_order_depends_target___02_cppVarScope: phony || CMakeFiles/__02_cppVarScope.dir
+
+build CMakeFiles/__02_cppVarScope.dir/00_StudyC++/__02_cppVarScope.cpp.obj: CXX_COMPILER____02_cppVarScope_Debug D$:/Code/CLionProjects/DataStruct/00_StudyC++/__02_cppVarScope.cpp || cmake_object_order_depends_target___02_cppVarScope
+  DEP_FILE = CMakeFiles\__02_cppVarScope.dir\00_StudyC++\__02_cppVarScope.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
+  OBJECT_DIR = CMakeFiles\__02_cppVarScope.dir
+  OBJECT_FILE_DIR = CMakeFiles\__02_cppVarScope.dir\00_StudyC++
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target __02_cppVarScope
+
+
+#############################################
+# Link the executable __02_cppVarScope.exe
+
+build __02_cppVarScope.exe: CXX_EXECUTABLE_LINKER____02_cppVarScope_Debug CMakeFiles/__02_cppVarScope.dir/00_StudyC++/__02_cppVarScope.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\__02_cppVarScope.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = __02_cppVarScope.exe
+  TARGET_IMPLIB = lib__02_cppVarScope.dll.a
+  TARGET_PDB = __02_cppVarScope.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target CMakeCXXCompilerId
 
 
@@ -136,6 +169,8 @@ build CMakeCXXCompilerId: phony CMakeCXXCompilerId.exe
 
 build __01_cppDataType: phony __01_cppDataType.exe
 
+build __02_cppVarScope: phony __02_cppVarScope.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -144,7 +179,7 @@ build __01_cppDataType: phony __01_cppDataType.exe
 #############################################
 # Folder: D:/Code/CLionProjects/DataStruct/cmake-build-debug
 
-build all: phony __01_cppDataType.exe CMakeCXXCompilerId.exe
+build all: phony __01_cppDataType.exe __02_cppVarScope.exe CMakeCXXCompilerId.exe
 
 # =============================================================================
 # Built-in targets
