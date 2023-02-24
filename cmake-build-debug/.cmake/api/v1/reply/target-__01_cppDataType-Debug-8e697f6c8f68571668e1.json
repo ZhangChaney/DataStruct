@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "CMakeCCompilerId.exe"
+			"path" : "__01_cppDataType.exe"
 		},
 		{
-			"path" : "CMakeCCompilerId.pdb"
+			"path" : "__01_cppDataType.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 12,
+				"line" : 13,
 				"parent" : 0
 			}
 		]
@@ -39,16 +39,27 @@
 			[
 				{
 					"fragment" : "-g -fdiagnostics-color=always"
+				},
+				{
+					"fragment" : "-std=gnu++14"
 				}
 			],
-			"language" : "C",
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
 			"sourceIndexes" : 
 			[
 				0
 			]
 		}
 	],
-	"id" : "CMakeCCompilerId::@6890427a1f51a3e7e1df",
+	"id" : "__01_cppDataType::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -66,10 +77,10 @@
 				"role" : "libraries"
 			}
 		],
-		"language" : "C"
+		"language" : "CXX"
 	},
-	"name" : "CMakeCCompilerId",
-	"nameOnDisk" : "CMakeCCompilerId.exe",
+	"name" : "__01_cppDataType",
+	"nameOnDisk" : "__01_cppDataType.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -90,7 +101,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/CMakeCCompilerId.c",
+			"path" : "00_StudyC++/__01_cppDataType.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

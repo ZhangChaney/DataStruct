@@ -41,103 +41,70 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/Code/CLionProjects/DataStruct/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target 01_dataType
+# Object build statements for EXECUTABLE target __01_cppDataType
 
 
 #############################################
-# Order-only phony target for 01_dataType
+# Order-only phony target for __01_cppDataType
 
-build cmake_object_order_depends_target_01_dataType: phony || CMakeFiles/01_dataType.dir
+build cmake_object_order_depends_target___01_cppDataType: phony || CMakeFiles/__01_cppDataType.dir
 
-build CMakeFiles/01_dataType.dir/StudyC/01_dataType.c.obj: C_COMPILER__01_dataType_Debug D$:/Code/CLionProjects/DataStruct/StudyC/01_dataType.c || cmake_object_order_depends_target_01_dataType
-  DEP_FILE = CMakeFiles\01_dataType.dir\StudyC\01_dataType.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\01_dataType.dir
-  OBJECT_FILE_DIR = CMakeFiles\01_dataType.dir\StudyC
+build CMakeFiles/__01_cppDataType.dir/00_StudyC++/__01_cppDataType.cpp.obj: CXX_COMPILER____01_cppDataType_Debug D$:/Code/CLionProjects/DataStruct/00_StudyC++/__01_cppDataType.cpp || cmake_object_order_depends_target___01_cppDataType
+  DEP_FILE = CMakeFiles\__01_cppDataType.dir\00_StudyC++\__01_cppDataType.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
+  OBJECT_DIR = CMakeFiles\__01_cppDataType.dir
+  OBJECT_FILE_DIR = CMakeFiles\__01_cppDataType.dir\00_StudyC++
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 01_dataType
+# Link build statements for EXECUTABLE target __01_cppDataType
 
 
 #############################################
-# Link the executable 01_dataType.exe
+# Link the executable __01_cppDataType.exe
 
-build 01_dataType.exe: C_EXECUTABLE_LINKER__01_dataType_Debug CMakeFiles/01_dataType.dir/StudyC/01_dataType.c.obj
+build __01_cppDataType.exe: CXX_EXECUTABLE_LINKER____01_cppDataType_Debug CMakeFiles/__01_cppDataType.dir/00_StudyC++/__01_cppDataType.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\01_dataType.dir
+  OBJECT_DIR = CMakeFiles\__01_cppDataType.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = 01_dataType.exe
-  TARGET_IMPLIB = lib01_dataType.dll.a
-  TARGET_PDB = 01_dataType.exe.dbg
+  TARGET_FILE = __01_cppDataType.exe
+  TARGET_IMPLIB = lib__01_cppDataType.dll.a
+  TARGET_PDB = __01_cppDataType.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target CMakeCCompilerId
+# Object build statements for EXECUTABLE target CMakeCXXCompilerId
 
 
 #############################################
-# Order-only phony target for CMakeCCompilerId
+# Order-only phony target for CMakeCXXCompilerId
 
-build cmake_object_order_depends_target_CMakeCCompilerId: phony || CMakeFiles/CMakeCCompilerId.dir
+build cmake_object_order_depends_target_CMakeCXXCompilerId: phony || CMakeFiles/CMakeCXXCompilerId.dir
 
-build CMakeFiles/CMakeCCompilerId.dir/CMakeFiles/3.24.2/CompilerIdC/CMakeCCompilerId.c.obj: C_COMPILER__CMakeCCompilerId_Debug D$:/Code/CLionProjects/DataStruct/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/CMakeCCompilerId.c || cmake_object_order_depends_target_CMakeCCompilerId
-  DEP_FILE = CMakeFiles\CMakeCCompilerId.dir\CMakeFiles\3.24.2\CompilerIdC\CMakeCCompilerId.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\CMakeCCompilerId.dir
-  OBJECT_FILE_DIR = CMakeFiles\CMakeCCompilerId.dir\CMakeFiles\3.24.2\CompilerIdC
+build CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj: CXX_COMPILER__CMakeCXXCompilerId_Debug D$:/Code/CLionProjects/DataStruct/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.cpp || cmake_object_order_depends_target_CMakeCXXCompilerId
+  DEP_FILE = CMakeFiles\CMakeCXXCompilerId.dir\CMakeFiles\3.24.2\CompilerIdCXX\CMakeCXXCompilerId.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
+  OBJECT_DIR = CMakeFiles\CMakeCXXCompilerId.dir
+  OBJECT_FILE_DIR = CMakeFiles\CMakeCXXCompilerId.dir\CMakeFiles\3.24.2\CompilerIdCXX
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target CMakeCCompilerId
+# Link build statements for EXECUTABLE target CMakeCXXCompilerId
 
 
 #############################################
-# Link the executable CMakeCCompilerId.exe
+# Link the executable CMakeCXXCompilerId.exe
 
-build CMakeCCompilerId.exe: C_EXECUTABLE_LINKER__CMakeCCompilerId_Debug CMakeFiles/CMakeCCompilerId.dir/CMakeFiles/3.24.2/CompilerIdC/CMakeCCompilerId.c.obj
+build CMakeCXXCompilerId.exe: CXX_EXECUTABLE_LINKER__CMakeCXXCompilerId_Debug CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\CMakeCCompilerId.dir
+  OBJECT_DIR = CMakeFiles\CMakeCXXCompilerId.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = CMakeCCompilerId.exe
-  TARGET_IMPLIB = libCMakeCCompilerId.dll.a
-  TARGET_PDB = CMakeCCompilerId.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target test
-
-
-#############################################
-# Order-only phony target for test
-
-build cmake_object_order_depends_target_test: phony || CMakeFiles/test.dir
-
-build CMakeFiles/test.dir/test.c.obj: C_COMPILER__test_Debug D$:/Code/CLionProjects/DataStruct/test.c || cmake_object_order_depends_target_test
-  DEP_FILE = CMakeFiles\test.dir\test.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\test.dir
-  OBJECT_FILE_DIR = CMakeFiles\test.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target test
-
-
-#############################################
-# Link the executable test.exe
-
-build test.exe: C_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/test.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\test.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = test.exe
-  TARGET_IMPLIB = libtest.dll.a
-  TARGET_PDB = test.exe.dbg
+  TARGET_FILE = CMakeCXXCompilerId.exe
+  TARGET_IMPLIB = libCMakeCXXCompilerId.dll.a
+  TARGET_PDB = CMakeCXXCompilerId.exe.dbg
 
 
 #############################################
@@ -165,11 +132,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build 01_dataType: phony 01_dataType.exe
+build CMakeCXXCompilerId: phony CMakeCXXCompilerId.exe
 
-build CMakeCCompilerId: phony CMakeCCompilerId.exe
-
-build test: phony test.exe
+build __01_cppDataType: phony __01_cppDataType.exe
 
 # =============================================================================
 # Folder targets.
@@ -179,7 +144,7 @@ build test: phony test.exe
 #############################################
 # Folder: D:/Code/CLionProjects/DataStruct/cmake-build-debug
 
-build all: phony 01_dataType.exe CMakeCCompilerId.exe test.exe
+build all: phony __01_cppDataType.exe CMakeCXXCompilerId.exe
 
 # =============================================================================
 # Built-in targets
