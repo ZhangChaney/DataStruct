@@ -1,0 +1,5 @@
+D:/Code/CLionProjects/DataStruct/cmake-build-debug/CMakeFiles/01_dataType.dir
+D:/Code/CLionProjects/DataStruct/cmake-build-debug/CMakeFiles/CMakeCCompilerId.dir
+D:/Code/CLionProjects/DataStruct/cmake-build-debug/CMakeFiles/test.dir
+D:/Code/CLionProjects/DataStruct/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Code/CLionProjects/DataStruct/cmake-build-debug/CMakeFiles/rebuild_cache.dir

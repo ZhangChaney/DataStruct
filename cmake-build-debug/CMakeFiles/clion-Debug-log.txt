@@ -1,0 +1,7 @@
+E:\Develop_tools\JetBrains\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=E:/Develop_tools/JetBrains/apps/CLion/ch-0/223.8617.54/bin/ninja/win/x64/ninja.exe -G Ninja -S D:\Code\CLionProjects\DataStruct -B D:\Code\CLionProjects\DataStruct\cmake-build-debug
+    -- src/01_dataType.c will be compiled to bin/01_dataType
+    -- src/CMakeCCompilerId.c will be compiled to bin/CMakeCCompilerId
+    -- src/test.c will be compiled to bin/test
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Code/CLionProjects/DataStruct/cmake-build-debug
