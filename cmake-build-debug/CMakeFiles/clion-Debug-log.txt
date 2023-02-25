@@ -3,6 +3,8 @@ E:\Develop_tools\JetBrains\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cma
     -- src/__01_cppDataType.cpp will be compiled to bin/__01_cppDataType
     -- src/__02_cppVarScope.c will be compiled to bin/__02_cppVarScope
     -- src/__02_cppVarScope.cpp will be compiled to bin/__02_cppVarScope
+    -- src/__03_cppPoint.c will be compiled to bin/__03_cppPoint
+    -- src/__03_cppPoint.cpp will be compiled to bin/__03_cppPoint
     -- src/CMakeCXXCompilerId.c will be compiled to bin/CMakeCXXCompilerId
     -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
 -- Configuring done
